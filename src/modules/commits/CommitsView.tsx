@@ -46,7 +46,7 @@ export const CommitsView = () => {
   return (
     <div>
       <ListCommits 
-        items={[]}
+        items={commits}
       />
       <Pagination 
         onPrev={() => {
