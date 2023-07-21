@@ -7,16 +7,16 @@ export const Sidebar = () => {
         <ul className="space-y-2 font-medium">
           <li>
             <Link 
-              to="/repos" 
+              to="/commits" 
               className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
-              Repositories
+              Commits
             </Link>
           </li>
           <li>
             <Link 
-              to="/commits" 
+              to="/repos" 
               className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
-              Commits
+              Repositories
             </Link>
           </li>
           <li>
