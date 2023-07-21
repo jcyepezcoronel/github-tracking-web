@@ -3,7 +3,7 @@ import { LoginView } from "./modules/auth/LoginView";
 import { DashboardLayout } from "./shared/layout/DashboardLayout";
 import { Session } from "./modules/auth/Session";
 import { ReposView } from "./modules/repos/ReposView";
-// import { CommitsView } from "./modules/commits/CommitsView";
+import { CommitsView } from "./modules/commits/CommitsView";
 import { SignUpvView } from "./modules/auth/SignUpvView";
 import { RepoView } from "./modules/repos/RepoView";
 import { RepoCommitsView } from "./modules/repos/RepoCommitsView";
@@ -32,7 +32,7 @@ export const AppRouter = () => {
             <Route index element={<RepoView />} />
             <Route path="commits" element={<RepoCommitsView />} />
           </Route>
-          {/* <Route path="commits" element={<CommitsView />} /> */}
+          <Route path="commits" element={<CommitsView />} />
         </Route>
       </Routes>
     </BrowserRouter>

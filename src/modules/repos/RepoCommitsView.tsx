@@ -63,7 +63,6 @@ export const RepoCommitsView = () => {
         }}
         onNext={() => {
           if(perPage > commits.length) return;
-          console.log('next')
           setPage(page + 1)
         }}
       />

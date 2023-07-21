@@ -13,11 +13,11 @@ export const Sidebar = () => {
             </Link>
           </li>
           <li>
-            <div 
-              // to="/commits" 
-              className="flex items-center p-2 rounded-lg text-gray-400 group">
-              Commits
-            </div>
+            <Link 
+              to="/commits" 
+              className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+              commits
+            </Link>
           </li>
           <li>
             <Link 
